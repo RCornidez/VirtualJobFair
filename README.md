@@ -44,6 +44,7 @@
 <hr/>
 
 <h3>.env example</h3>
+
     # CrackedDev.com API
     CD_API_KEY=1bc7r0y3-999r-451s-88f7-5bc7f12et499
 
