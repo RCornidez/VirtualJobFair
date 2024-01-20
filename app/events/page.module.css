@@ -1,0 +1,73 @@
+.JobFairContainer {
+  background-image: url("/white_brick_2.png");
+  background-repeat: repeat;
+  background-size: 182px 142px;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+}
+
+.JobFair{
+  background: rgba(110, 12, 12, 0.685);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  
+  min-height: 100%;
+  width: 100%;
+
+}
+
+.ListingContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Row {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Company {
+  height: 150px;
+  width: 180px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.Employee {
+  z-index: 2;
+}
+
+.Table {
+  width: 180px;
+  height: 61px; 
+  background-image: url('/table.png'); 
+  background-repeat: none;
+  position: absolute;
+  bottom: 45;
+  z-index: 3;
+
+}
+
+.Floor {
+  width: 100%;
+  height: 104px; 
+  background-image: url('/job_fair_wood_floor.png'); 
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

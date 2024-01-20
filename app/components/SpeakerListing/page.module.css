@@ -1,0 +1,43 @@
+.SpeakerListing {
+  border: solid 4px orange;
+  min-height: 100px;
+  max-width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: center;
+  margin: 1em;
+  padding: 2em 1em;
+  padding-top: 2.5em;
+  position: relative;
+  text-align: center;
+}
+
+.PresentationTime {
+  margin-bottom: 0.4em;
+}
+
+.Attend {
+  margin-bottom: 0.4em;
+  padding: 0.5em;
+}
+
+.Attend:hover {
+  cursor: pointer;
+}
+
+.Image {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 4px Black;
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+}
+
+.Name, .Title {
+  text-wrap: wrap;
+  
+}
