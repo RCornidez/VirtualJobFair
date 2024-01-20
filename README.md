@@ -39,6 +39,7 @@
     - Create Account Page
     - Create more Avatars (and their associated profile pictures)
     - Configure Authentication (either Auth0 or Next Auth)
+    - Create Dashboard Page
 
 
 <hr/>
