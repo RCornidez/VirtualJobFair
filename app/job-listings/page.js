@@ -14,7 +14,7 @@ export default async function Page() {
     `https://api.crackeddevs.com/api/get-jobs?limit=${limit}`,
     {
       headers: {
-        'api-key': `${API_KEY}`,
+        "api-key": `${API_KEY}`,
       },
     });
 
@@ -22,7 +22,7 @@ export default async function Page() {
     throw new Error(`Error: ${res.status}`);
   }
   
-  const data = null //await res.json();
+  const data = await res.json();
 
     return (
       <>
@@ -40,7 +40,7 @@ export default async function Page() {
               { data? 
                   data.map(job => (<JobListing key={job.id} listing={job} />))
                   :
-                  <p>There's no Jobs! Don't worry we're searching.</p>
+                  <p>There&apos;s no Jobs! Don&apos;t worry we&apos;re searching.</p>
               }
             </div>
           </div>

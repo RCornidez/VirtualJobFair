@@ -1,5 +1,6 @@
 .SpeakerListing {
-  border: solid 4px orange;
+  border: solid 4px black;
+  border-radius: 15px;
   min-height: 100px;
   max-width: 180px;
   display: flex;
@@ -11,6 +12,7 @@
   padding-top: 2.5em;
   position: relative;
   text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.21);
 }
 
 .PresentationTime {
@@ -20,6 +22,8 @@
 .Attend {
   margin-bottom: 0.4em;
   padding: 0.5em;
+  border: solid 2px;
+  border-radius: 5px;
 }
 
 .Attend:hover {
@@ -31,7 +35,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid 4px Black;
+  border: solid 4px black;
   height: 95px;
   width: 95px;
   border-radius: 50%;
@@ -40,4 +44,19 @@
 .Name, .Title {
   text-wrap: wrap;
   
+}
+
+.SocialLinks {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.SocialItem {
+  margin: 0px 0.25em;
+  margin-bottom: 0.25em;
 }

@@ -2,20 +2,31 @@
 
 ## CrackedDevs First Hackathon
 
-<h3>Demo <a href="#">Link</a></h3>
-
+<h3>Demo <a href="https://cornidez.com/VirtualJobFair">Link</a></h3>
 
 <h3>How-to-run:</h3>
 
     download repo
     cd into root of project
     run "npm install"
-    create an .env file in root that contains CrackedDevs and Firestore Database API keys (example .env below)
+    create an .env file in root that contains CrackedDevs API key (example .env below)
     run "npm run dev"
 
 <hr/>
 
 <h3>ChangeLog</h3>
+
+<h4>Version 0.0.2 (2024-1-21)</h4>
+
+    - Finish the Speaker Listing Component
+    - Create Job Fair Listing:
+        Job Fair Listing Component (Employees, Table Color, Logo)
+        Detail View (shows video, employees, call button, and details)
+        Youtube Embedded Video Component
+    - Create Landing Page
+    - Show Account Page is under development
+    - Added a few more Avatars
+    - Reconfigured Job Fair Listings to be dynamically rendered
 
 <h4>Version 0.0.1 (2024-1-20)</h4>
 
@@ -30,17 +41,11 @@
 
 <h3>Planned Implementations</h3>
 
-    - Finish the Speaker Listing Component
-    - Create Job Fair Listing:
-        Public View Component (Employees, Table Color, Logo)
-        PopUp Detail Component (shows video, employees, call button, and details)
-        Youtube Embedded Video Component
     - Setup Firestore Controllers (Users, JobFairListings, Events, Companies)
     - Create Account Page
-    - Create more Avatars (and their associated profile pictures)
+    - Create New Profile Setup Page (Add contact info, resume, and configure avatar)
+    - Create an Avatar builder (base model, choose skin tone, eye/hair color, outfit)
     - Configure Authentication (either Auth0 or Next Auth)
-    - Create Dashboard Page
-
 
 <hr/>
 

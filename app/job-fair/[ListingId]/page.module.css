@@ -1,0 +1,68 @@
+
+.PopUpContainer {
+    min-height: 100%;
+    width: 100%;
+    background-image: url("/solid_background.png");
+    background-repeat: repeat;
+    background-size: 768px 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.PopUpDetail {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo {
+    
+}
+
+.Employees {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5em 0px;
+    overflow-y: hidden;
+}
+
+.EmployeeContainer {
+    height: 90px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0.25em;
+    overflow: hidden;
+    position: relative;
+}
+
+.EmployeeName {
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    border: solid black 2px;
+    padding: 0.25em;
+}
+
+.TalkButton {
+    font-size: 2em;
+    padding: 0.25em;
+    margin: 0.5em;
+    margin-left: 0px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+.Details {
+    display: none;
+}
+
+.Loading {
+    margin-top: 4em;
+    font-size: 2em;
+}

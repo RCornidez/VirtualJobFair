@@ -8,8 +8,9 @@ const Navigation = () => {
 
     return (
         <nav className={styles.Navigation}>
-            <h1 className={styles.Title}>Cornidez.com/VirtualJobFair</h1>
-
+            <Link href="/">
+                <h1 className={styles.Title}>Cornidez.com/VirtualJobFair</h1>
+            </Link>
             <div className={styles.LowerRow}>
                 <div className={styles.Links}>
                     <Link href="/job-fair" className={styles.LinkItem}>Job Fair</Link>
