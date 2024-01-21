@@ -9,6 +9,10 @@ export default async function Page() {
 
   const API_KEY = process.env.CD_API_KEY;
   const limit = 10;
+  
+  if (API_KEY == null) {
+    throw new Error(`No CrackedDevs API Key provided, verify .env file is setup properly.`);
+  }
 
   const res = await fetch(
     `https://api.crackeddevs.com/api/get-jobs?limit=${limit}`,

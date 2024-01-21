@@ -2,7 +2,7 @@
 
 ## CrackedDevs First Hackathon
 
-<h3>Demo <a href="https://cornidez.com/VirtualJobFair">Link</a></h3>
+<h3>Demo <a href="https://hackathon.cornidez.com/">Link</a></h3>
 
 <h3>How-to-run:</h3>
 

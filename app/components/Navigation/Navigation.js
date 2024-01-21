@@ -9,7 +9,7 @@ const Navigation = () => {
     return (
         <nav className={styles.Navigation}>
             <Link href="/">
-                <h1 className={styles.Title}>Cornidez.com/VirtualJobFair</h1>
+                <h1 className={styles.Title}>Hackathon.Cornidez.com</h1>
             </Link>
             <div className={styles.LowerRow}>
                 <div className={styles.Links}>
