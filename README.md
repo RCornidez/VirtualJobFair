@@ -1,6 +1,6 @@
 # Virtual Job Fair
 
-## CrackedDevs First Hackathon
+## Won the grand prize at CrackedDevs First Hackathon
 
 <h3>Demo <a href="https://hackathon.cornidez.com/">Link</a></h3>
 
